@@ -537,6 +537,9 @@ header nav .wrapper .menus .cart:hover {
     position: fixed;
     top: 70%;
     animation: massage 5s infinite;
+    border-radius: 50%;
+
+
 
 
 }
@@ -545,10 +548,8 @@ header nav .wrapper .menus .cart:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
     padding: 10px;
     border-radius: 50%;
-    border: 1px solid #000;
 
 }
 
@@ -557,6 +558,7 @@ header nav .wrapper .menus .cart:hover {
 @keyframes massage {
     0% {
         top: 70%;
+        background: rgba(111, 231, 13, 0.489);
         left: 0;
     }
 
@@ -564,20 +566,28 @@ header nav .wrapper .menus .cart:hover {
     25% {
         top: 69%;
         left: 2px;
+        background: rgba(231, 198, 13, 0.783);
+
     }
 
     50% {
         top: 69%;
         left: 5px;
+        background: rgba(231, 198, 13, 0.671);
+
     }
 
     75% {
         top: 69%;
         left: 2px;
+        background: rgba(231, 198, 13, 0.671);
+
     }
 
     100% {
         top: 70%;
         left: 0;
+        background: rgba(111, 231, 13, 0.489);
+
     }
 }
