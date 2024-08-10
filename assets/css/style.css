@@ -152,7 +152,8 @@ header nav .wrapper .menus .cart:hover {
     line-height: 75px;
     font-family: "Bebas Neue", sans-serif;
 }
-.col h4{
+
+.col h4 {
     font-size: 50px;
     line-height: 75px;
     font-family: "Bebas Neue", sans-serif;
@@ -509,4 +510,74 @@ header nav .wrapper .menus .cart:hover {
 
 .container .items .item p {
     line-height: 1.5;
+}
+
+/* ======fixed attachment====== */
+.win-bag {
+    position: fixed;
+    top: 40%;
+    left: -55px;
+    rotate: 90deg;
+}
+
+.win-bag a {
+    background: rgba(255, 99, 71, 0.84);
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.win-bag a:hover {
+    background: tomato;
+}
+
+
+.massage {
+    position: fixed;
+    top: 70%;
+    animation: massage 5s infinite;
+
+
+}
+
+.massage a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+
+
+@keyframes massage {
+    0% {
+        top: 70%;
+        left: 0;
+    }
+
+
+    25% {
+        top: 69%;
+        left: 2px;
+    }
+
+    50% {
+        top: 69%;
+        left: 5px;
+    }
+
+    75% {
+        top: 69%;
+        left: 2px;
+    }
+
+    100% {
+        top: 70%;
+        left: 0;
+    }
 }
