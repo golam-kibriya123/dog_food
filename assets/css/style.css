@@ -58,7 +58,8 @@ img {
 
 header {
     position: sticky;
-    top: 0px;
+    top: 0;
+    z-index: 100;
 }
 
 header nav .wrapper {
@@ -303,4 +304,72 @@ header nav .wrapper .menus .cart:hover {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
     color: #2e2a2a;
+}
+
+/* feedback section */
+.feedback {
+    background-color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.feedback .col-1 {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.feedback .col-1 .attunement {
+    position: absolute;
+    right: 70px;
+    top: 60%;
+    width: 153px;
+}
+
+.feedback .col-2 {
+    flex-basis: 60%;
+}
+
+.feedback .col-2 h2 {
+    color: #3c3c3c;
+}
+
+.feedback .col-2 span {
+    font-size: 28px;
+    line-height: 35px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    color: #3d3935;
+}
+
+/* feedback 2 */
+.feedback-2-section {
+    background: #e9c24a;
+    padding: 60px 0;
+}
+
+.feedback-2 {
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.feedback-2 .img {
+    background: #fff;
+    width: 220px;
+    height: 220px;
+}
+
+.feedback-2 .content h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 30px 0px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+
 }
