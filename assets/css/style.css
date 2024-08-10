@@ -118,22 +118,26 @@ header nav .wrapper .menus .cart:hover {
 
 /* nave end */
 /* goal section */
-.goal-section .goal {
+.goal-section .goal {}
+
+.row {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background: #bfd7dd;
-
 }
 
-.goal-section .goal .goal-content {
+.col {
     flex-basis: 50%;
-    padding: 70px;
     height: 100%;
 }
 
-.goal-section .goal .goal-content h2 {
+.goal-section .goal .goal-content {
+    padding: 70px;
+}
+
+.col h2 {
     font-weight: 700;
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
@@ -143,16 +147,16 @@ header nav .wrapper .menus .cart:hover {
     margin-bottom: 10px;
 }
 
-.goal-section .goal .goal-content p {
+.col p {
     line-height: 26px;
     margin-top: 20px;
     margin-bottom: 46px;
 }
 
-.goal-section .goal .goal-content a {
-
+.col a {
+    text-transform: capitalize;
     border-radius: 5px;
-    padding: 16px 30px;
+    padding: 16px 40px;
     background: rgba(239, 65, 54, 1);
     color: #fff;
     font-size: 16px;
@@ -161,11 +165,7 @@ header nav .wrapper .menus .cart:hover {
     text-align: center;
 }
 
-.goal-section .goal .goal-img {
-    flex-basis: 50%;
-}
-
-.goal-section .goal .goal-img img {
+.col img {
     display: block;
 }
 
@@ -263,6 +263,12 @@ header nav .wrapper .menus .cart:hover {
     color: #3f4042;
 }
 
+.product-section .products .product .content>span {
+    background: #e0cd3b;
+    line-height: 1.5;
+    padding: 2px;
+}
+
 .product-section .products .product .content p {
     font-size: 26px;
     font-weight: 700;
@@ -285,4 +291,16 @@ header nav .wrapper .menus .cart:hover {
     font-weight: 800;
     width: 100%;
     text-align: center;
+}
+
+.pet-x-planet {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.pet-x-planet h2 {
+    font-size: 90px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    color: #2e2a2a;
 }
