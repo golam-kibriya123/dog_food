@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     padding: 0;
@@ -54,12 +55,20 @@ img {
 
 /* common style end */
 /* nave start */
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
 header nav .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid #0000000c;
+    background-color: #ffff;
     padding: 0 30px;
+
 }
 
 header nav .wrapper .logo {
@@ -108,3 +117,172 @@ header nav .wrapper .menus .cart:hover {
 }
 
 /* nave end */
+/* goal section */
+.goal-section .goal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #bfd7dd;
+
+}
+
+.goal-section .goal .goal-content {
+    flex-basis: 50%;
+    padding: 70px;
+    height: 100%;
+}
+
+.goal-section .goal .goal-content h2 {
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color: rgb(239, 65, 54);
+    font-size: 90px;
+    line-height: 95px;
+    margin-bottom: 10px;
+}
+
+.goal-section .goal .goal-content p {
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 46px;
+}
+
+.goal-section .goal .goal-content a {
+
+    border-radius: 5px;
+    padding: 16px 30px;
+    background: rgba(239, 65, 54, 1);
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.goal-section .goal .goal-img {
+    flex-basis: 50%;
+}
+
+.goal-section .goal .goal-img img {
+    display: block;
+}
+
+/* review */
+
+.review-section .review {
+    color: #fff;
+    background: #3c3c3c;
+    padding: 50px 0;
+    text-align: center;
+
+
+}
+
+.review-section h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 2;
+
+}
+
+.review-section .review .rating {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 0px;
+    font-weight: 500;
+
+}
+
+.review-section .review .rating ul {
+    display: flex;
+}
+
+.review-section .review .rating ul li img {
+    width: 20px;
+    margin: 0 2px;
+}
+
+.vide-add-section {
+    padding: 70px 0;
+    background: #e2f5fb;
+}
+
+.vide-add-section .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.vide-add-section .video iframe {
+    width: 80%;
+    height: 450px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+/* product-section */
+.product-section .products {
+    padding: 70px;
+    background: #9edceb;
+}
+
+.product-section .products .product {
+    border: 2px solid #3f4042;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.product-section .products .product .img {
+    flex-basis: 15%;
+}
+
+.product-section .products .product .img img {
+    height: 143px;
+    width: 143px;
+}
+
+.product-section .products .product .content {
+    flex-basis: 65%;
+}
+
+.product-section .products .product .content h2 {
+    font-size: 55px;
+    line-height: 110%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    color: #3f4042;
+}
+
+.product-section .products .product .content p {
+    font-size: 26px;
+    font-weight: 700;
+    color: #3f4042;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.product-section .products .product .package-btn {
+    flex-basis: 20%;
+    display: flex;
+}
+
+.product-section .products .product .package-btn a {
+    border-radius: 5px;
+    padding: 16px 0px;
+    background: rgba(239, 65, 54, 1);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+}
