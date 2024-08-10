@@ -548,7 +548,7 @@ header nav .wrapper .menus .cart:hover {
     background: #fff;
     padding: 10px;
     border-radius: 50%;
-    position: relative;
+    border: 1px solid #000;
 
 }
 
