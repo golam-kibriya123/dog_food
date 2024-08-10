@@ -573,14 +573,14 @@ header nav .wrapper .menus .cart:hover {
     50% {
         top: 69%;
         left: 5px;
-        background: rgba(231, 198, 13, 0.671);
+        background: rgba(231, 13, 13, 0.671);
 
     }
 
     75% {
         top: 69%;
         left: 2px;
-        background: rgba(231, 198, 13, 0.671);
+        background: rgba(13, 104, 231, 0.671);
 
     }
 
